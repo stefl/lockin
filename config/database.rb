@@ -1,25 +1,15 @@
+Mongoid.skip_version_check = true
 
 # Connection.new takes host, port
-host = 'localhost'
 port = Mongo::Connection::DEFAULT_PORT
 
-database_name = case Padrino.env
-  when :development then 'lock_in_development'
-  when :production  then 'lock_in_production'
-  when :test        then 'lock_in_test'
+case Padrino.env
+  when :development then
+    connection = Mongo::Connection.new("localhost", port, {:pool_timeout => 60, :pool_size => 5, :timeout => 10})
+    Mongoid.database = connection.db("lockin")
+  when :production then
+    uri  = URI.parse(ENV['MONGOLAB_URI'])
+    connection = Mongo::Connection.from_uri(ENV['MONGOLAB_URI'])
+    Mongoid.database = connection.db(uri.path.gsub(/^\//, ''))
+
 end
-
-Mongoid.database = Mongo::Connection.new(host, port).db(database_name)
-
-# You can also configure Mongoid this way
-# Mongoid.configure do |config|
-#   name = @settings["database"]
-#   host = @settings["host"]
-#   config.master = Mongo::Connection.new.db(name)
-#   config.slaves = [
-#     Mongo::Connection.new(host, @settings["slave_one"]["port"], :slave_ok => true).db(name),
-#     Mongo::Connection.new(host, @settings["slave_two"]["port"], :slave_ok => true).db(name)
-#   ]
-# end
-#
-# More installation and setup notes are on http://mongoid.org/docs/
