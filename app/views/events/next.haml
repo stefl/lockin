@@ -1,0 +1,4 @@
+%article#event
+  %h1
+    = @event.meta.title || @event.slug.humanize
+  = @event.content_html
