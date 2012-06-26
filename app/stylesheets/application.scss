@@ -18,8 +18,9 @@ $media-layout: 30em 12 60em;// Use 12 cols between min 30em & max 60em.
 $media-layout: 60em 12 30em;// Same. Larger length will always be max-width.
 $media-layout: 12 lt-ie9;  // Output is included under `.lt-ie9` class,
 $container-style: magic;
-$background-color: #fff;
-$link-color:   #ff2288;
+$background-color: #f8f6f4;
+$link-color:   #ff00aa;
+
 $black: #222;
 
 $title-face: "ratio", "Helvetica Neue", Helvetica, sans-serif;
@@ -49,7 +50,7 @@ body {
   font-family: $body-face;
   @include container; 
   background-color: white;
-
+  @include box-shadow(rgba(0,0,0,0.05) 0px 0px 16px);
   header{ 
     clear: both; 
   }
@@ -83,6 +84,7 @@ body {
     .content { 
       @include span-columns(8,12);
       @include pre(1);
+      @include trailer(1);
     }
     .side {
       @include span-columns(2,12);
@@ -119,7 +121,7 @@ header#header {
   h2 {
     text-align: center;
     @include adjust-font-size-to($base-font-size * 1, $lines:1);
-    @include leader(0);
+    @include leader(1);
   }
 }
 
@@ -197,11 +199,11 @@ footer#footer {
   .container {
     @include container();
     .footer {
-      border-top: 4px solid #eee;
     }
     p {
       color: #aaa;
       text-align: center;
+      @include adjust-font-size-to($base-font-size*0.75, $lines:1);
       a, a:visited {
         color: #999;
       }
