@@ -190,6 +190,7 @@ blockquote {
 }
 
 footer#footer {
+  font-family: $body-face;
   height: 8em;
   clear: both;
   .container {
@@ -199,6 +200,9 @@ footer#footer {
     }
     p {
       text-align: center;
+      a, a:visited {
+        color: #444;
+      }
     }
   }
   ul li {
