@@ -146,6 +146,10 @@ body h1 a {
 .page nav p:nth-child(1) {
   margin-top: 0em;
 }
+/* line 67, ../../app/stylesheets/application.scss */
+.page ul {
+  margin-bottom: 1.5em;
+}
 /* line 68, ../../app/stylesheets/application.scss */
 .page ul li {
   list-style: circle;
@@ -155,13 +159,13 @@ body h1 a {
 .page ul li em {
   font-weight: bold;
 }
-/* line 76, ../../app/stylesheets/application.scss */
+/* line 77, ../../app/stylesheets/application.scss */
 .page .twitter-follow-button {
   position: relative;
   top: 6px;
 }
 @media (min-width: 60em) {
-  /* line 82, ../../app/stylesheets/application.scss */
+  /* line 83, ../../app/stylesheets/application.scss */
   .page .content {
     width: 66.102%;
     float: left;
@@ -169,7 +173,7 @@ body h1 a {
     display: inline;
     margin-left: 8.475%;
   }
-  /* line 86, ../../app/stylesheets/application.scss */
+  /* line 87, ../../app/stylesheets/application.scss */
   .page .side {
     width: 15.254%;
     float: left;
@@ -179,7 +183,7 @@ body h1 a {
   }
 }
 
-/* line 93, ../../app/stylesheets/application.scss */
+/* line 94, ../../app/stylesheets/application.scss */
 h1 {
   font-size: 2em;
   line-height: 1.5em;
@@ -187,21 +191,21 @@ h1 {
   font-weight: 100;
 }
 @media (min-width: 60em) {
-  /* line 93, ../../app/stylesheets/application.scss */
+  /* line 94, ../../app/stylesheets/application.scss */
   h1 {
     font-size: 3em;
     line-height: 1em;
   }
 }
 
-/* line 102, ../../app/stylesheets/application.scss */
+/* line 103, ../../app/stylesheets/application.scss */
 header#header {
   text-align: center;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
   border-bottom: 4px solid #eee;
 }
-/* line 108, ../../app/stylesheets/application.scss */
+/* line 109, ../../app/stylesheets/application.scss */
 header#header h1#logo {
   text-align: center;
   display: inline-block;
@@ -212,7 +216,7 @@ header#header h1#logo {
   margin-bottom: 0em;
   margin-top: 1.5em;
 }
-/* line 118, ../../app/stylesheets/application.scss */
+/* line 119, ../../app/stylesheets/application.scss */
 header#header h2 {
   text-align: center;
   font-size: 1em;
@@ -220,35 +224,35 @@ header#header h2 {
   margin-top: 0em;
 }
 
-/* line 125, ../../app/stylesheets/application.scss */
+/* line 126, ../../app/stylesheets/application.scss */
 h2 {
   font-size: 2em;
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
 
-/* line 130, ../../app/stylesheets/application.scss */
+/* line 131, ../../app/stylesheets/application.scss */
 h1 {
   font-size: 2em;
   line-height: 1.5em;
   margin-bottom: 1.5em;
 }
 
-/* line 135, ../../app/stylesheets/application.scss */
+/* line 136, ../../app/stylesheets/application.scss */
 p {
   margin-bottom: 1.5em;
 }
-/* line 136, ../../app/stylesheets/application.scss */
+/* line 137, ../../app/stylesheets/application.scss */
 p:first-child {
   margin-top: 1.5em;
 }
 
-/* line 142, ../../app/stylesheets/application.scss */
+/* line 143, ../../app/stylesheets/application.scss */
 ul.twitter_users {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 144, ../../app/stylesheets/application.scss */
+/* line 145, ../../app/stylesheets/application.scss */
 ul.twitter_users li {
   width: 100%;
   float: left;
@@ -260,26 +264,26 @@ ul.twitter_users li {
   display: inline;
   margin-bottom: 1.5em;
 }
-/* line 147, ../../app/stylesheets/application.scss */
+/* line 148, ../../app/stylesheets/application.scss */
 ul.twitter_users li h3 {
   margin-bottom: 1.5em;
 }
 @media (min-width: 60em) {
-  /* line 151, ../../app/stylesheets/application.scss */
+  /* line 152, ../../app/stylesheets/application.scss */
   ul.twitter_users li .avatar {
     width: 8.163%;
     float: left;
     margin-right: 2.041%;
     display: inline;
   }
-  /* line 154, ../../app/stylesheets/application.scss */
+  /* line 155, ../../app/stylesheets/application.scss */
   ul.twitter_users li .about {
     width: 48.98%;
     float: left;
     margin-right: 2.041%;
     display: inline;
   }
-  /* line 157, ../../app/stylesheets/application.scss */
+  /* line 158, ../../app/stylesheets/application.scss */
   ul.twitter_users li .follow {
     width: 28.571%;
     float: left;
@@ -288,7 +292,7 @@ ul.twitter_users li h3 {
   }
 }
 
-/* line 165, ../../app/stylesheets/application.scss */
+/* line 166, ../../app/stylesheets/application.scss */
 .sixteen-nine {
   position: relative;
   padding-bottom: 56.25%;
@@ -297,7 +301,7 @@ ul.twitter_users li h3 {
   margin-bottom: 1.5em;
 }
 
-/* line 173, ../../app/stylesheets/application.scss */
+/* line 174, ../../app/stylesheets/application.scss */
 iframe#youtube, iframe#vimeo {
   position: absolute;
   top: 0;
@@ -306,7 +310,7 @@ iframe#youtube, iframe#vimeo {
   height: 100%;
 }
 
-/* line 181, ../../app/stylesheets/application.scss */
+/* line 182, ../../app/stylesheets/application.scss */
 blockquote {
   padding-left: 8.475%;
   background-color: #f2f2f2;
@@ -315,18 +319,18 @@ blockquote {
   font-weight: lighter;
   margin-top: 0em;
 }
-/* line 187, ../../app/stylesheets/application.scss */
+/* line 188, ../../app/stylesheets/application.scss */
 blockquote p {
   margin: 0px;
 }
 
-/* line 192, ../../app/stylesheets/application.scss */
+/* line 193, ../../app/stylesheets/application.scss */
 footer#footer {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   height: 8em;
   clear: both;
 }
-/* line 196, ../../app/stylesheets/application.scss */
+/* line 197, ../../app/stylesheets/application.scss */
 footer#footer .container {
   *zoom: 1;
   max-width: 59em;
@@ -342,19 +346,19 @@ footer#footer .container:after {
   display: table;
   clear: both;
 }
-/* line 198, ../../app/stylesheets/application.scss */
+/* line 199, ../../app/stylesheets/application.scss */
 footer#footer .container .footer {
   border-top: 4px solid #eee;
 }
-/* line 201, ../../app/stylesheets/application.scss */
+/* line 202, ../../app/stylesheets/application.scss */
 footer#footer .container p {
   text-align: center;
 }
-/* line 203, ../../app/stylesheets/application.scss */
+/* line 204, ../../app/stylesheets/application.scss */
 footer#footer .container p a, footer#footer .container p a:visited {
   color: #444;
 }
-/* line 208, ../../app/stylesheets/application.scss */
+/* line 209, ../../app/stylesheets/application.scss */
 footer#footer ul li {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   font-size: 0.875em;
@@ -364,7 +368,7 @@ footer#footer ul li {
   display: inline-block;
   margin-right: 0.5em;
 }
-/* line 215, ../../app/stylesheets/application.scss */
+/* line 216, ../../app/stylesheets/application.scss */
 footer#footer ul li a {
   color: #222222;
 }
@@ -385,17 +389,17 @@ footer#footer ul li a:active {
   color: #222222;
 }
 
-/* line 221, ../../app/stylesheets/application.scss */
+/* line 222, ../../app/stylesheets/application.scss */
 article {
   margin-bottom: 1.5em;
 }
 
-/* line 225, ../../app/stylesheets/application.scss */
+/* line 226, ../../app/stylesheets/application.scss */
 #footer_sticky {
   height: 8em;
 }
 
-/* line 229, ../../app/stylesheets/application.scss */
+/* line 230, ../../app/stylesheets/application.scss */
 #all {
   min-height: 100%;
   height: auto !important;
@@ -403,7 +407,7 @@ article {
   margin: 0 auto -8em;
 }
 
-/* line 240, ../../app/stylesheets/application.scss */
+/* line 241, ../../app/stylesheets/application.scss */
 .sc-player {
   margin-bottom: 1.5em;
   height: 48px;

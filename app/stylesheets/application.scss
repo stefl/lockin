@@ -72,6 +72,7 @@ body {
         font-weight: bold;
       }
     }
+    @include trailer(1);
   }
   .twitter-follow-button {
     position: relative;
