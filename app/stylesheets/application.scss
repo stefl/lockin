@@ -19,7 +19,7 @@ $media-layout: 60em 12 30em;// Same. Larger length will always be max-width.
 $media-layout: 12 lt-ie9;  // Output is included under `.lt-ie9` class,
 $container-style: magic;
 $background-color: #fff;
-$link-color:   #ff4499;
+$link-color:   #ff2288;
 $black: #222;
 
 $title-face: "ratio", "Helvetica Neue", Helvetica, sans-serif;
@@ -200,9 +200,10 @@ footer#footer {
       border-top: 4px solid #eee;
     }
     p {
+      color: #aaa;
       text-align: center;
       a, a:visited {
-        color: #444;
+        color: #999;
       }
     }
   }

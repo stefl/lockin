@@ -87,23 +87,23 @@ body {
 }
 /* line 39, ../../app/stylesheets/application.scss */
 body a {
-  color: #ff4499;
+  color: #ff2288;
 }
 /* line 18, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body a:visited {
-  color: #ffaad1;
+  color: #ff88bf;
 }
 /* line 21, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body a:focus {
-  color: #ffc3df;
+  color: #ffa1cd;
 }
 /* line 24, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body a:hover {
-  color: #ff77b5;
+  color: #ff55a3;
 }
 /* line 27, ../../../../Users/stef/.rvm/gems/ruby-1.9.3-head/gems/compass-0.12.2.rc.0/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 body a:active {
-  color: #ff91c3;
+  color: #ff6eb1;
 }
 /* line 42, ../../app/stylesheets/application.scss */
 body h1 a {
@@ -352,13 +352,14 @@ footer#footer .container .footer {
 }
 /* line 202, ../../app/stylesheets/application.scss */
 footer#footer .container p {
+  color: #aaa;
   text-align: center;
 }
-/* line 204, ../../app/stylesheets/application.scss */
+/* line 205, ../../app/stylesheets/application.scss */
 footer#footer .container p a, footer#footer .container p a:visited {
-  color: #444;
+  color: #999;
 }
-/* line 209, ../../app/stylesheets/application.scss */
+/* line 210, ../../app/stylesheets/application.scss */
 footer#footer ul li {
   font-family: "ff-tisa-web-pro", Georgia, serif;
   font-size: 0.875em;
@@ -368,7 +369,7 @@ footer#footer ul li {
   display: inline-block;
   margin-right: 0.5em;
 }
-/* line 216, ../../app/stylesheets/application.scss */
+/* line 217, ../../app/stylesheets/application.scss */
 footer#footer ul li a {
   color: #222222;
 }
@@ -389,17 +390,17 @@ footer#footer ul li a:active {
   color: #222222;
 }
 
-/* line 222, ../../app/stylesheets/application.scss */
+/* line 223, ../../app/stylesheets/application.scss */
 article {
   margin-bottom: 1.5em;
 }
 
-/* line 226, ../../app/stylesheets/application.scss */
+/* line 227, ../../app/stylesheets/application.scss */
 #footer_sticky {
   height: 8em;
 }
 
-/* line 230, ../../app/stylesheets/application.scss */
+/* line 231, ../../app/stylesheets/application.scss */
 #all {
   min-height: 100%;
   height: auto !important;
@@ -407,7 +408,7 @@ article {
   margin: 0 auto -8em;
 }
 
-/* line 241, ../../app/stylesheets/application.scss */
+/* line 242, ../../app/stylesheets/application.scss */
 .sc-player {
   margin-bottom: 1.5em;
   height: 48px;
